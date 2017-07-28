@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Counter = (props) => {
+class Counter extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div>hi</div>
-    )
+    );
   }
-}
+};
 
-export Counter;
+export default Counter;
+
+// export const Counter = (props) => {
+//   return (
+//     <div>hi</div>
+//   );
+// };
