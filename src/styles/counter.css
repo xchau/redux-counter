@@ -1,0 +1,6 @@
+.counter-container {
+  align-items: center;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+}

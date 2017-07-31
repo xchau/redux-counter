@@ -31,7 +31,7 @@ describe('# Test Redux reducers', () => {
     ).to.equal(2);
 
     expect(
-      counter(-1, { type: 'BAD_ACTION' })
+      counter(-1, { type: 'DO_ACTION' })
     ).to.equal(-1);
   });
 });
